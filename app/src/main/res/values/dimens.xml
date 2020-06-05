@@ -6,5 +6,8 @@
     <dimen name="ivHome">150dp</dimen>
     <dimen name="titleSize">20sp</dimen>
     <dimen name="marginHomeSubtitle">10dp</dimen>
-    <dimen name="subtitleSize">15swp</dimen>
+    <dimen name="subtitleSize">15sp</dimen>
+    <dimen name="scheduleTitle">30sp</dimen>
+    <dimen name="scheduleSubtitle">20sp</dimen>
+
 </resources>

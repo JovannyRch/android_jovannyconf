@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:gravity="end|bottom"
+            android:textSize="@dimen/scheduleTitle"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/ampm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A.M."
+            android:gravity="right|top"
+            android:textSize="@dimen/scheduleSubtitle"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la conferencia"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:ellipsize="end"
+            android:lines="1"/>
+        <TextView
+            android:id="@+id/speaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaker Name"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:ellipsize="end"
+            android:lines="1"/>
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tag"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:lines="1"/>
+    </LinearLayout>
+</LinearLayout>
