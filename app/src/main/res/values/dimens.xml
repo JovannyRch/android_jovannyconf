@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="mysize">24dp</dimen>
+    <dimen name="alto_logo">45dp</dimen>
+    <dimen name="toolbar">30dp</dimen>
+    <dimen name="corner">4dp</dimen>
+    <dimen name="ivHome">150dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="marginHomeSubtitle">10dp</dimen>
+    <dimen name="subtitleSize">15swp</dimen>
 </resources>
